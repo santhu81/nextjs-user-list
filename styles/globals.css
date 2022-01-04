@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background:#eee;
 }
 
 a {
@@ -13,4 +14,53 @@ a {
 
 * {
   box-sizing: border-box;
+}
+.container{
+  max-width:960px;
+  margin:0 auto;
+}
+header{
+  display: flex;
+  align-items: center;
+  padding:10px 0;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+}
+nav{
+  display: flex;
+  gap:10px;
+  justify-content: flex-end;
+}
+nav a{
+  color:rgb(0, 128, 179);
+}
+nav a:hover{
+  color:#555;
+}
+.logo{
+  font-size:22px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 0 0 2px rgb(0, 128, 179);
+}
+footer{
+  border-top:1px solid #ccc;
+  text-align: center;
+}
+.usersList{
+  margin:10px 0;
+  padding:0;
+}
+.usersList li{
+  list-style: none;
+  background:#fff;
+  padding:10px;
+  border:1px solid #ccc;
+  color:#555;
+  margin-bottom:10px;
+  transition: 0.8s;
+}
+.usersList li:hover{
+  background:#eee;
 }

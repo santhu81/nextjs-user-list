@@ -1,6 +1,9 @@
 .container {
   padding: 0 2rem;
 }
+.redText{
+  color:red;
+}
 
 .main {
   min-height: 100vh;
